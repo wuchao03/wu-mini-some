@@ -6,7 +6,7 @@
 
 ```html
 <template>
-  <wu-peopleSelect
+  <wu-peopleselect
     :config="config"
     @addUser="addUser"
     @deleteUser="deleteUser"
@@ -97,9 +97,9 @@
 ## 安装
 
 ```
-npm i wu-peopleSelect -S
+npm i wu-peopleselect -S
 
-import wuPeopleSelect from 'wu-peopleSelect'
+import wuPeopleSelect from 'wu-peopleselect'
 
 Vue.use(wuPeopleSelect)
 ```

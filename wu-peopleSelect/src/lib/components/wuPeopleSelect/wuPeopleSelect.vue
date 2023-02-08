@@ -1,5 +1,5 @@
 <template>
-  <div class="wu-peopleSelect-main">
+  <div class="wu-peopleselect-main">
     <template v-if="list.length">
       <span v-for="item in list" :key="item[defineMail]">
         <el-tooltip effect="dark" placement="bottom" :disabled="isTooltips" :popper-class="tipsClass" >
@@ -11,23 +11,23 @@
               </template>
             </slot>
           </span>
-          <span class="wu-peopleSelect-item" :class="cardClass">
+          <span class="wu-peopleselect-item" :class="cardClass">
             <slot :info="item" name="card">
               <template>
-                <span class="wu-peopleSelect-item-name" :class="nameClass">
+                <span class="wu-peopleselect-item-name" :class="nameClass">
                   {{ item[defineName] }}
                 </span>
-                <span class="wu-peopleSelect-item-mail" :class="mailClass">
+                <span class="wu-peopleselect-item-mail" :class="mailClass">
                   {{ item[defineMail] }}
                 </span>
               </template>
             </slot>
-            <span class="wu-peopleSelect-item-delete el-icon-error" @click="deleteUser(item)"></span>
+            <span class="wu-peopleselect-item-delete el-icon-error" @click="deleteUser(item)"></span>
           </span>
         </el-tooltip>
       </span>
     </template>
-    <span class="wu-peopleSelect-item wu-peopleSelect-add" :class="addClass" @click="addVisible = true; form.user = []">
+    <span class="wu-peopleselect-item wu-peopleselect-add" :class="addClass" @click="addVisible = true; form.user = []">
       + 添加
     </span>
     <el-dialog
@@ -37,7 +37,7 @@
       :modal-append-to-body='true'
       :append-to-body='true'
       :close-on-click-modal="false"
-      custom-class="wu-peopleSelect-dialog"
+      custom-class="wu-peopleselect-dialog"
     >
       <el-form
         :model="form"
@@ -313,7 +313,7 @@ export default {
 @import "../../css/wuPeopleSelect-scope";
 </style>
 <style lang="less">
-  .wu-peopleSelect-dialog {
+  .wu-peopleselect-dialog {
     border-radius: 10px;
   }
 </style>

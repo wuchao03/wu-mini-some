@@ -1,16 +1,16 @@
 {
-  "_from": "wu-peopleSelect",
-  "_id": "wu-peopleSelect@0.0.3",
+  "_from": "wu-peopleselect",
+  "_id": "wu-peopleselect@2.0.0",
   "_inBundle": false,
   "_integrity": "sha512-hPzlvffVS4XMvpsmU/O3/qfC+lXOU1/6t+VPvGc82Kh/s+2DQb2I9k+SdCsVcw9ZigryMgMM/nwIUxpQNk0IIg==",
-  "_location": "/wu-peopleSelect",
+  "_location": "/wu-peopleselect",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "wu-peopleSelect",
-    "name": "wu-peopleSelect",
-    "escapedName": "wu-peopleSelect",
+    "raw": "wu-peopleselect",
+    "name": "wu-peopleselect",
+    "escapedName": "wu-peopleselect",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://github.com/wuchao03/wu-mini-some/tree/master/wu-peopleSelect",
+  "_resolved": "https://github.com/wuchao03/wu-mini-some/tree/master/wu-peopleselect",
   "_shasum": "a31d2e36a22d30d231fc03d3e7851938f54daecf",
-  "_spec": "wu-peopleSelect",
+  "_spec": "wu-peopleselect",
   "_where": "D:\\前端\\test",
   "author": {
     "name": "test"
@@ -72,10 +72,10 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "wu-peopleSelect",
+  "name": "wu-peopleselect",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuchao03/wu-mini-some/tree/master/wu-peopleSelect"
+    "url": "https://github.com/wuchao03/wu-mini-some/tree/master/wu-peopleselect"
   },
   "scripts": {
     "build": "webpack --config ./configs/webpack.build.js",
@@ -83,5 +83,5 @@
     "package": "node configs/doc-build.js",
     "start": "webpack-dev-server --config ./configs/webpack.start.js"
   },
-  "version": "0.0.3"
+  "version": "2.0.0"
 }
