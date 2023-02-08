@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-npm install wu-npm-a
+npm i wu-npm-a
 ```
 
 ## 导入
